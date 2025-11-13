@@ -1,0 +1,27 @@
+welcome to devops cls.
+
+How to Login the Ec2 Instance:
+==============================
+
+1. Go the location where your server .pem file is located.
+2. Right click and click on Gitbash here
+3. It open the one black screen window
+4. Run below command for aws ec2 instance login
+
+Command to login centos:
+========================
+
+ssh -i .pemfilename username of server@Public Ip address of server.
+
+Ex:   ssh -i centos.pem centos@13.233.153.4    
+===
+
+Command to login AWS Linux OS:
+==============================
+
+ssh -i .pemfilename username of server@Public Ip address of server.
+
+Ex:   ssh -i centos.pem ec2-user@3.108.53.104
+===
+
+
