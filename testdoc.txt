@@ -1,5 +1,3 @@
-welcome to devops cls.
-
 How to Login the Ec2 Instance:
 ==============================
 
